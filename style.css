@@ -1,0 +1,271 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* start */
+body{
+    font-family: 'Bruno Ace SC', cursive;
+    line-height: 1.5;
+    background-color: black;
+    color: white;
+    max-width: 1920px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.navi{
+    padding: 40px 200px;
+}
+
+.p-40{
+    padding: 40px 0;
+}
+
+.navi>ul{
+    justify-content: space-around;
+}
+
+.df{
+    display: flex;
+}
+
+.navi>ul>li>a:hover{
+    box-shadow: 0px 10px 15px grey;
+}
+
+.name{
+    max-width: 1920px;
+    padding: 72px 0;
+    justify-content: center;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2{
+    font-size: 72px;
+}
+
+.column>h1{
+    font-size: 120px;
+    text-align: right;
+}
+
+.highlight-g{
+    color: #00FFA3;
+}
+
+.bg-white{
+    background-color: white;
+    color: black;
+}
+
+.contact-bt{
+    align-self: flex-end;
+    padding: 7px 20px;
+    min-width: 200px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.contact-text{
+    text-decoration-line: none; 
+    color: rgb(59, 59, 59);
+    font-size: 24px;
+}
+
+.contact-text:hover{
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.intro{
+    max-width: 1920px;
+    justify-content: center;
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+}
+
+.intro>.column{
+    justify-content: start;
+}
+
+h3{
+    font-size: 60px;
+}
+
+p{
+    max-width: 450px;
+    padding: 40px 0;
+    font-size: 20px;
+}
+
+.gallery{
+    padding-left: 20px;
+}
+
+.gallery>img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.aboutMe{
+    justify-content: center;
+}
+
+.aboutMe>.df{
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+.block{
+    margin: 10px 15px 0 0;
+    border: 2px #E3E3E3 solid;
+    width: 300px;
+    padding: 16px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.block>p{
+    padding: 15px 0;
+}
+
+.pd-140{
+    padding: 140px 0;
+}
+
+.aboutMe-desc{
+    margin: 0 0 0 150px;
+    width: 500px;
+}
+
+.aboutMe-desc>p{
+    font-size: 24px;
+    min-width: 500px;
+}
+
+.contact{
+    padding: 100px 0;
+    justify-content: center;
+}
+
+.contactMe-text{
+    min-width: 700px;
+    padding: 30px 0;
+}
+
+.contactMe-text>img{
+    margin-left: 10px;
+}
+
+.icon{
+    margin-left: 20px;
+}
+
+.icon>a>img:hover{
+    box-shadow: 0px 0px 80px rgb(171, 173, 172);
+    border-radius: 40px;
+}
+
+.project{
+    justify-content: center;
+}
+
+.pro-left{
+    padding-top: 90px;
+    margin-right: 10px;
+}
+
+.pro-right{
+    min-width: 900px;
+}
+
+.pro-right>h3{
+    text-align: center;
+}
+
+.pro-center{
+    justify-content: space-between;
+}
+
+.img-pd20{
+    padding: 10px 10px;
+}
+
+.pro-detail{
+    justify-content: space-around;
+    max-width: 650px;
+    font-size: 18px;
+}
+
+.seeMore{
+    background-color: black;
+    color: rgb(213, 208, 208);
+    padding: 10px 24px;
+    width: 180px;
+    text-align: center;
+    border-radius: 24px;
+    font-size: 18px;
+}
+
+.seeMore>span:hover{
+    color: white;
+    letter-spacing: 0.8px;
+}
+
+.footer{
+    text-align: center;
+    font-size: 16px;
+}
+
